@@ -1,6 +1,6 @@
 [![Build Status](https://dev.azure.com/CEDemos/Contoso-AirDemo/_apis/build/status/addydevbox.ContosoAir?branchName=master)](https://dev.azure.com/CEDemos/Contoso-AirDemo/_build/latest?definitionId=25&branchName=master)
 
-# Adeola
+# Addy
 
 
 
@@ -13,6 +13,7 @@ Runs a nodejs server (Express v4.16) that stores customer booked flights in a Co
 
 * Node v8.9.4 or later
 * Azure CosmosDb
+* Azure Portal
 
 ## Local Environment Setup
 
