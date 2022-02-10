@@ -1,4 +1,7 @@
-# This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
+[![Build Status](https://dev.azure.com/CEDemos/Contoso-AirDemo/_apis/build/status/addydevbox.ContosoAir?branchName=master)](https://dev.azure.com/CEDemos/Contoso-AirDemo/_build/latest?definitionId=25&branchName=master)
+
+# Adeola
+
 
 
 # Microsoft.Github CI Demo
