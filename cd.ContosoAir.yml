@@ -35,7 +35,7 @@ steps:
     subscriptionId: 'e0acda36-f565-462e-9a9b-bc00260e00c6'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(resourcegroup)'
-    location: 'East US'
+    location: 'East US 2'
     templateLocation: 'Linked artifact'
     csmFile: '$(Pipeline.Workspace)/drop/Templates/azuredeploy.json'
     csmParametersFile: '$(Pipeline.Workspace)/drop/Templates/azuredeploy.parameters.json'
@@ -47,5 +47,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure Connection'
     appType: 'webApp'
-    WebAppName: 
-    packageForLinux: '$(Pipeline.Workspace)/*/.zip.'
+    WebAppName: '$(web_prefix)-$(web_site)-$(web_environment)'
+    packageForLinux: '$(Pipeline.Workspace)/**/*.zip.'
