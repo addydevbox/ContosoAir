@@ -31,7 +31,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Azure Connection'
+    azureResourceManagerConnection: 'aomonira_internal (e0acda36-f565-462e-9a9b-bc00260e00c6)'
     subscriptionId: 'e0acda36-f565-462e-9a9b-bc00260e00c6'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(resourcegroup)'
